@@ -8,12 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
       },
     },
+    colors: {
+      'sienna': '#D87D4A',
+      'charcoal': '#101010',
+      'lightgray': '##F1F1F1',
+      'offwhite': '#FAFAFA',
+      'peach': '#fbaf85',
+      'white': '#FFFFFF',
+      'black': '#000000',
+    }
   },
   plugins: [],
 };
