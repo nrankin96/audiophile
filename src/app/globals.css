@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: aqua;
+  scroll-behavior: smooth;
 }
 
 
@@ -74,3 +74,10 @@ h6 {
     text-wrap: balance;
   }
 }
+
+@media (min-width: 1000px) {
+  body {
+    margin: 32px 165px;
+  }
+}
+

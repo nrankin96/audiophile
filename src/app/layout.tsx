@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+import Navbar from "../components/Navbar";
+
 
 import "./globals.css";
 
@@ -17,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body >
+        <Navbar />
+        {children}
+        </body>
     </html>
   );
 }
