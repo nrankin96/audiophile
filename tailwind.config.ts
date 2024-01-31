@@ -21,6 +21,9 @@ const config: Config = {
       'peach': '#fbaf85',
       'white': '#FFFFFF',
       'black': '#000000',
+    },
+    backgroundPosition: {
+      'bottom-4': 'center bottom 1rem',
     }
   },
   plugins: [],

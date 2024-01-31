@@ -67,6 +67,12 @@ h6 {
   text-transform: uppercase;
 }
 
+.bg-img {
+  background-size: cover;
+  background-position: 25% 75%;
+  background-repeat: no-repeat;
+  
+}
 
 
 @layer utilities {
