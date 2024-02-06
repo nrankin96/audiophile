@@ -10,7 +10,7 @@ type ButtonProps = {
 }
 const Button = ({title, type, icon}: ButtonProps) => {
   return (
-    <button type={type}>
+    <button type={type} >
         {title}
     </button>
   )
